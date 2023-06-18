@@ -1,0 +1,49 @@
+models:
+  - name: stg_bing_data
+    columns: 
+      - name: ad_id
+        tests:
+          - not_null
+      - name: date
+        tests:
+          - not_null
+      - name: channel
+        tests:
+          - accepted_values:
+              values: ['Bing']
+
+  - name: stg_facebook_data
+    columns: 
+      - name: ad_id
+        tests:
+          - not_null
+      - name: date
+        tests:
+          - not_null
+      - name: channel
+        tests:
+          - accepted_values:
+              values: ['Facebook']
+
+  - name: stg_tiktok_data
+    columns: 
+      - name: ad_id
+        tests:
+          - not_null
+      - name: date
+        tests:
+          - not_null
+      - name: channel
+        tests:
+          - accepted_values:
+              values: ['TikTok Ads']
+
+  - name: stg_twitter_data
+    columns: 
+      - name: date
+        tests:
+          - not_null
+      - name: channel
+        tests:
+          - accepted_values:
+              values: ['Twitter']
