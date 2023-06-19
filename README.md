@@ -22,8 +22,9 @@ If you want to add and compare data from an additional advertising channel, foll
 
 1. Clone the Repository.
 2. Add your CSV data file to the **seeds** folder.
+3. Run *dbt seed* to create instances of static data.
 3. Create a staging model in the **models/staging** folder. Please use the same column name convention as provided in the [mcdm_paid_ads_basic_performance_structure.csv](seeds/mcdm_paid_ads_basic_performance_structure.csv) file. If any column in your data is empty, fill it with 0 or null.
 4. Incorporate your data into the **mcdm_paid_ads_basic_performance** model using the same **UNION ALL** pattern.
-5. Run the dbt build command.
+5. Run the *dbt build* command.
 
 Congratulations! Your data have been added to the dashboard. Now, open the [Ads Performance Dashboard](https://lookerstudio.google.com/u/1/reporting/3b7227f1-b27e-4a1a-a5de-4836d60941bf/page/tEnnC) to compare the performance across different channels.
