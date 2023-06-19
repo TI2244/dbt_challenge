@@ -1,7 +1,3 @@
-{{ config(
-materialized='table'
-) }}
-
 WITH cost_per_eng AS (
     SELECT
         channel,
