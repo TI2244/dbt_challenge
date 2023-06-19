@@ -16,6 +16,8 @@ The dashboard provides insights into:
 
 You can access the dashboard via this link: [Ads Performance Dashboard](https://lookerstudio.google.com/u/1/reporting/3b7227f1-b27e-4a1a-a5de-4836d60941bf/page/tEnnC)
 
+<img width="1429" alt="Screenshot 2023-06-19 at 12 35 50 PM" src="https://github.com/TI2244/dbt_challenge/assets/92342237/cd7bcba5-8617-4852-bdae-44c0fef045ad">
+
 ## How to Add Data from a New Channel
 
 If you want to add and compare data from an additional advertising channel, follow these steps:
